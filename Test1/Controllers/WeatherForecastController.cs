@@ -31,7 +31,7 @@ namespace Test1.Controllers
         }
 
         [HttpPost(Name = "Login")]
-        public IActionResult Edit()
+        public IActionResult Edits()
         {
             return RedirectToAction();
 
